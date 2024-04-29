@@ -14,7 +14,7 @@ My intro to assembly and shellcoding so I wanted to start easy. Most of the x64 
 
 ## Getting Started
 
-If you only need the shellcode just copy it from the Shellcode.c file and paste into your code, but if you want to compile it yourself follow the steps below:
+If you only need the shellcode and trust my low level unreadable code running on your PC (obviously you should😃👍) you can just download the Shellcode.c file, but if you want to compile it yourself follow the steps below:
 
 ### Prerequisites
 
