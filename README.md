@@ -36,7 +36,7 @@ If you only need the shellcode just copy it from the Shellcode.c file and paste 
   
 2. Compile with NASM, ```nasm -f bin WinExecNotepad.asm -o WinExecNotepad.bin```
 
-3. Open a linux instance and use xxd to view shellcode ```xxd -p WinExecNotepad.bin```
+3. Open a linux instance and use xxd to view shellcode, ```xxd -p WinExecNotepad.bin```
 
 4. Successfully extracted shellcode!
 
