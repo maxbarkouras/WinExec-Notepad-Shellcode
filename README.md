@@ -20,7 +20,7 @@ If you only need the shellcode and trust my low level unreadable code running on
 
 1. NASM compiler
 2. Windows Developer Command Prompt
-3. Access to Linux box (WSL, VM, VPS, etc)
+3. Access to Linux (WSL, VM, VPS, etc)
 4. Understanding of assembly syntax and structure
 
 ### Compiling into PE file (Useful for debugging, not necessary for extracting shellcode)
@@ -41,7 +41,7 @@ If you only need the shellcode and trust my low level unreadable code running on
   
 2. Compile with NASM, ```nasm -f bin WinExecNotepad.asm -o WinExecNotepad.bin```
 
-3. Open a linux instance and use xxd to view shellcode, ```xxd -p WinExecNotepad.bin```
+3. Open linux and use xxd to view shellcode, ```xxd -p WinExecNotepad.bin```
 
 4. Successfully extracted shellcode!
 
