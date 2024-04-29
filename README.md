@@ -1,6 +1,6 @@
 # WinExec-Notepad-Shellcode
 
-Intro to assembly and shellcoding for me so I wanted to start easy and basic. Most of the x64 assembly documentation/code samples exist in conjunction with C++ which I wanted to shy away from in order to make a standalone application. Basically all other maldev focused assembly samples use WinExec so this was just me getting my foot in the door. PSA if you dont know anything about assembly, x64 architecture, or nasm I highly recommend you learn the assembly basics first, unrelated to maldev, and then begin your shellcoding journey
+My intro to assembly and shellcoding so I wanted to start easy. Most of the x64 assembly documentation/code samples exist in conjunction with C++ which I wanted to shy away from in order to make a standalone application. Basically all other maldev focused assembly samples use WinExec so this was just me getting my foot in the door. PSA if you dont know anything about assembly, x64 architecture, or nasm I highly recommend you learn the assembly basics first, unrelated to maldev, and then begin your shellcoding journey
 
 ## Features
 
