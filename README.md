@@ -4,7 +4,10 @@ My intro to assembly and shellcoding so I wanted to start easy. Most of the x64 
 
 ## Features
 
-- Simply launches notepad.exe via calling WinExec and cleanly exits the thread, allowing for injection into other processes
+- Finds kernel32 base address using PEB
+- Loops through kernel32 functions until WinExec is found
+- Launches notepad.exe via WinExec
+- Uses GetProcAddress to find ExitThread and calls to cleanly exit
 - Written for NASM and using NASM x64 syntax so it will not compile with MASM, etc
 
 ## Getting Started
