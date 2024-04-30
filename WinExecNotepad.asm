@@ -61,7 +61,7 @@ _start:
     mov rax, 657865FFFFFFFFFFh       ; move "exe"FF into rax
     shr rax, 68h                     ; shorten string to remove FF, avoiding null bytes
     push rax                         ; push onto stack
-    mov rax, 'notepad.'              ; move "notepad." into rax, nasm can handle conversion to hex lol
+    mov rax, 2E64617065746F6Eh       ; move "notepad." into rax
     push rax                         ; push onto stack
     mov rcx, rsp                     ; move current stack, "notepad.exe", to rcx for parameter use
 
