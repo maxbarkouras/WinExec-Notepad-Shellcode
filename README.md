@@ -31,7 +31,7 @@ If you only need the shellcode and trust my low level unreadable code running on
 
 3. Open Windows Developer Command Prompt
    
-4. Link object file with no lib, ```link /entry:_start subsystem:windows WinExecNotepad.obj /nodefaultlib```
+4. Link object file with no lib, ```link /entry:_start /subsystem:windows WinExecNotepad.obj /nodefaultlib```
 
 5. Successfully compiled into WinExecNotepad.exe!
 
