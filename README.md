@@ -1,4 +1,4 @@
-# WinExec-Notepad-Shellcode
+# Windows x64 Shellcode: Launch Notepad with WinExec
 
 My intro to assembly and shellcoding so I wanted to start easy. Most of the x64 assembly documentation/code samples exist in conjunction with C++ which I wanted to shy away from in order to make a standalone application. Basically all other maldev focused assembly samples use WinExec so this was just me getting my foot in the door. 
 
